@@ -44,4 +44,15 @@ public class Calculator {
     int sum = x + y;
     System.out.println(" Sum of numbers x= " + x + " and y= " + y + " is : " + sum);
   }
+
+  static void subtraction() {
+    Scanner input = new Scanner(System.in);
+    System.out.println(" Enter the first number to sub ");
+    int c = input.nextInt();
+    System.out.println(" Enter the second number to sub ");
+    int d = input.nextInt();
+    int dif = c - d;
+    System.out.println(" Difference of numbers x= " + c + " and y= " + d + " is : " + dif);
+  }
+
 }
