@@ -74,5 +74,14 @@ public class Calculator {
     int q = a / b;
     System.out.println(" Qotient of numbers x= " + a + " and y= " + b + " is : " + q);
   }
-
+  
+  static void remainder(){
+    Scanner input=new Scanner(System.in); 
+System.out.println(" Enter the first number to find remainder ");
+int g=input.nextInt();
+System.out.println(" Enter the second number to find remainder ");
+int h=input.nextInt();
+int rem=g%h;
+System.out.println( " Remainder of numbers x= "+g+" and y= "+h+" is : "+rem);
+} 
 }
