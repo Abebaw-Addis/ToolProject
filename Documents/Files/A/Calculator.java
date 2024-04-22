@@ -54,14 +54,25 @@ public class Calculator {
     int dif = c - d;
     System.out.println(" Difference of numbers x= " + c + " and y= " + d + " is : " + dif);
   }
-  static void multiplication(){
-    Scanner input=new Scanner(System.in); 
-  System.out.println(" Enter the first number to mul ");
-int f=input.nextInt();
-  System.out.println(" Enter the second number to mul ");
-  int e=input.nextInt();
-  int pro=f*e;
-  System.out.println( " Product of numbers x= "+e+" and y= "+f+" is : "+pro);
-}
+
+  static void multiplication() {
+    Scanner input = new Scanner(System.in);
+    System.out.println(" Enter the first number to mul ");
+    int f = input.nextInt();
+    System.out.println(" Enter the second number to mul ");
+    int e = input.nextInt();
+    int pro = f * e;
+    System.out.println(" Product of numbers x= " + e + " and y= " + f + " is : " + pro);
+  }
+
+  static void division() {
+    Scanner input = new Scanner(System.in);
+    System.out.println(" Enter the first number to div ");
+    int a = input.nextInt();
+    System.out.println(" Enter the second number to div ");
+    int b = input.nextInt();
+    int q = a / b;
+    System.out.println(" Qotient of numbers x= " + a + " and y= " + b + " is : " + q);
+  }
 
 }
