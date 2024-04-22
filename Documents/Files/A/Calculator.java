@@ -1,3 +1,19 @@
+/*
+
+    COURSE TITLE SOFTWARE ENGINEERING TOOLS AND PRACTICES
+
+
+    Participant Group members
+    -------------------------
+
+    Student Name               Student Id Number
+1.  Abebaw Addis                    1402806
+2.  Abnet Ayele                     1402847
+3.  Asregd Firdie                   1400928
+4.  Yohannes Eshetu                 1403167
+
+
+ */
 package calculator;
 
 import java.util.Scanner;
